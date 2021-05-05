@@ -13,7 +13,7 @@ export const GifGrid = ({category}) => {
         { <div className = 'card-grid'>
                 {
                     images.map(item =>
-                        //<li key={item.id}>{item.title}</li>
+                       
                         <GifGridItem
                          key= {item.id}
                          img = {item} 
